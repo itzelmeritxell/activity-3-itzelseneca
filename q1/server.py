@@ -10,7 +10,7 @@ def saveFile(fileData, saveDir):
     with open(savePath, 'w') as f:  # open the file in write mode
         f.write(fileData['data'])  # write the file data to the file
 
-    print(f"File saved to: {savePath}")  # print the save path after saving the file
+    print(f"File saved to: {savePath}")  #print the save path after saving the file
 
 # function to run the server
 def runServer():
